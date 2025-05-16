@@ -111,7 +111,7 @@ h1 {
 }
 
 .hero {
-    background-image: url("/assets/amin-ramezani-YOfHFn_pC3k-unsplash.jpg");
+    background-image: url("assets/amin-ramezani-YOfHFn_pC3k-unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
