@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header class="header">
+    <img src="/assets/Brown Simple Circle Restaurant Logo.png" alt="Logo">
+    <nav class="nav-links">
+      <ul>
+        <li><a href="/index.html">Accueil</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <button id="btn" class="burger" aria-label="Ouvrir le menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </header>
+   <!-- Bannière, titre, slogan et un button pour découvrir le menu -->
+     <!-- Bannière, titre, slogan et un button pour découvrir le menu -->
+ <section class="hero">
+  <!-- <h1>Mood Food</h1> -->
+  <div class="hero-info">
+    <h2>Mood food, good</h2>
+    <button id="btn-menus" class="btn-menu">Découvrir le menu</button>
+  </div>
+</section>
+    <section id="contact" class="contact">
+        <h1 class="title">Des suggestions à nous transmettre ? Contactez nous !</h1>
+        <div class="contact-container">
+          <h2>Contactez nous ! </h2>
+          <form id="contact-form" action="" method="post">
+              <label for="name">Nom</label>
+              <input type="text" name="name" id="name" placeholder="Votre nom" required autocomplete="name" >
+              <label for="Email">Mail</label>
+              <input type="mail" name="mail" id="mail" placeholder="Votre email" required autocomplete="email">
+              <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+          </form>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer">
+            <img src="/assets/Brown Simple Circle Restaurant Logo.png" alt="" class="logo-footer">
+            &copy; Mood Food | Site vitrine réalisé par Whitney Marlier
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
